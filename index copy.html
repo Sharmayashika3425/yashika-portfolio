@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashika</title>
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/boxicons/2.0.7/css/boxicons.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <!-- custom css -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="time.css">
+</head>
+
+<body>
+    <!-- header design -->
+    
+    <header class="header">
+        <a href="#" class="logo"><img src="image/logoy.png" alt=""></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <a href="resume.html">Resume</a>
+
+
+        </nav>
+        <div class="wrapper">
+            <div class="display">
+                <div id="time"></div>
+            </div>
+            <span></span>
+            <span></span>
+        </div>
+
+    </header>
+
+    <!--home section desigh-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Namaste</h3>
+            <h1>I'm Yashika </h1>
+            <h3><span class="muliple-text"></span></h3>
+            <!-- ................succed.............. -->
+
+            <h3 class="succed">To succed in life you have to do four things -></h3>
+            <dl class="succed_list">
+                <dt>> Great Aim</dt>
+                <dd> I will have <i><b>Great Aim</b></i> </dd>
+                <dt>> Continuosly Acquire Knowledge </dt>
+                <dd> I will <i><b>Continuosly Acquire Knowledge</b></i></dd>
+                <dt>> Hard Work</dt>
+                <dd>I will do<i> <b> Hard Work </b></i></dd>
+                <dt>> Persevere </dt>
+                <dd>I will<i><b> Presevere</b></i></dd>
+
+            </dl>
+
+
+            <div class="social-media">
+                <a href="https://leetcode.com/yashikasharma1/"><i class='bx bxl-blogger'></i></a>
+                <a href="https://github.com/Sharmayashika3425"><i class='bx bxl-github'></i></a>
+                <a href="https://www.youtube.com/channel/UC1HUB13_ULBHexu6tcvVwxw"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.linkedin.com/in/yashika-sharma-aa7b26206/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="resume.html" target="_blank" class="btn">View Resume</a>
+
+        </div>
+        <div class="home-img">
+            <img src="image/Profile.jpeg" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-contant">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Developer!</h3>
+            <div class="intro">
+                <p>
+            <span class="thank">First of all, thank you for coming on my Web Page.</span>
+            <h4>OBJECTIVE</h4>
+            
+            <span style="color: yellow;">To work with an organization where can learn new skills and increase my abilities for the organizational goals as well as myself.</span><br><br>
+
+            &diams; I'm <b><span style="color:yellowgreen;">Akash Sharma.</span></b><br>
+            &diams; I'm <b><span style="color:yellowgreen;">21 years old.</span></b><br>
+            &diams; I'm a <b><span style="color:yellowgreen;">full stack web developer.</span></b><br>
+
+
+            &diams; I'm from <b><span style="color:yellowgreen;">Samalkha ,(Panipat).</span></b><br>
+
+            &diams; I did my Schooling at <b><span style="color:yellowgreen;">Maharaja Agrasen Public School.</span></b><br>
+            &diams; I completed my <b><span style="color:yellowgreen;">Bachelor of Technology in Information Technology with (Data Science and Artificial Intelligence).</span></b><span id="dots" >...</span>
+            <div id="invisible"><br>
+            &diams; My <b><span style="color:yellowgreen;"> Strength</span></b> is a quick learner and able to work with teams and I'm self-motivated and
+            disciplined.<br>
+            &diams; My <b><span style="color:yellowgreen;">Weakness</span></b> is I should do overtime when my task was not done.<br>
+
+
+            &diams; My <b><span style="color:yellowgreen;">Hobby</span></b> is like to learn new things and wake up early in the morning.<br>
+
+            &diams; My <b><span style="color:yellowgreen;">Short-term</span> </b>goal is to get a job to become financially responsible so that I can support my
+            parents.<br>
+            &diams; My <b><span style="color:yellowgreen;">Long-term</span></b> goal is to achieve a good position where I can build my career and help the
+            organization too.
+            <br><br>
+
+            <span style="color: yellow;">Thank you for giving me your valuable time.</span>
+
+            </div></p><button class="btn"id="btun" onclick="ReadMoreLess()">Read more</button></div>
+        </div>
+        <div class="about-img">
+            <img src="image/home.png" alt="">
+        </div>
+    </section><!-- Services section design  -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <div class="visible-content">
+                <p>
+                    At the outset, web designing emerged as an easier and simple way of exchanging information. It was a better means of communication and had better networking benefits compared to the commercial reasons.... </p></div>
+                    <div class="invisible-content">
+                        <p>Later on, the Web became an avenue for making profits, and the information space that was prior for providing free exchange thus changed to a space for commercial transactions.
+                   Have a 1 year experience in web Development. Make your own website with the help of me, by using the HTML,CSS,JAVASCRIPT,PHP AND for data base SQL.</p></div>
+
+            <button class="btn"id="btun1">Read more</button>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-paint'></i>
+                <h3>Graphic Design</h3>
+                <div class="visible-content">
+
+                <p>Graphic Design is the art of visual communication using typography and photography. It is projecting of ideas and experience with visual and textual content. It can be in a different form such as physical or virtual...</p></div> <div class="invisible-content"><p>It can include images, symbols, words, graphics and motions. It is showing off your creativity. It can be for different purposes such as commercial, cultural and educational or as well as political. Designing of posters, packages, boxes, magazines and advertisement or any other printed material comes under graphic designing. We provide all these services for you in a very wide range and at such a reasonable price. </p></div>
+
+
+                <button class="btn" id="btun1">Read more</button>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital marketing</h3>
+                <div class="visible-content">
+                <p>Whether you are an application development firm or an application service provider, digital marketing is one of the fields that can benefit you immensely in promotion of your business. In comparison to conventional ...</p></div> 
+                <div class="invisible-content"><p>marketing channels,digital marketing or online marketing comes with a vast range of benefits. Some of them have been mentioned below:
+                    The cost of marketing your product and services using traditional marketing methods such as newspaper, pamphlets, television etc. are costlier as compared to online advertising. So, if you are looking for a cost-effective means to promote your products or services, then digital marketing would be the best option.</p></div>
+
+                
+                <button class="btn"id="btun1">Read more</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- portfolio section design  -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="image/1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4 >CarRental</h4>
+                    <p> To produce a web-based system that allow customer to register and reserve car online and for the company to effectively manage their business.</p>
+                    <a target="_blank" href="https://github.com/Akash-Sharma-Coder/carrental/tree/master"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/5.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>YouTube Clone</h4>
+                    <p>YouTube Clone using HTML,CSS,JS only fontend</p>
+                    <a  target="_blank" href="https://akash-sharma-coder.github.io/Video_Streaming_CipherSchool_website/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Modern Design</h4>
+                    <p>MODERN WEBPAGE DESIGN include the modern design like a on/off lamp </p>
+                    <a target="_blank" href="https://github.com/Akash-Sharma-Coder/Modern_Webpage_Design"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/6.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Norysis</h4>
+                    <p>Electronic company /></p>
+                    <a href="https://akash-sharma-coder.github.io/norysis/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/6.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design  -->
+
+    <section class="contact" id="contact">
+        <div class="contact_container">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            <form action="#">
+
+                <div class="input-box">
+
+                    <input type="text" required="required">
+                    <span>Name</span>
+                    <i class='bx bxs-face'></i>
+
+                </div>
+                <div class="input-box">
+                    <input type="email" required="required">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>email address</span>
+                </div>
+                <div class="input-box">
+
+                    <input type="number" required="required">
+                    <span>Phone number</span>
+                    <i class='bx bx-phone'></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" required="required">
+                    <i class='bx bxs-envelope'></i>
+                    <span>Email Subject</span>
+                </div>
+                <div class="input-box">
+                    <textarea name="" class="textarea" cols="30" rows="10"></textarea>
+                    <span>Your Message</span>
+
+                </div>
+                <div class="input-box"><input type="submit" value="send Message" class="btn"></div>
+        </div>
+
+        </div>
+
+        </form>
+        </div>
+    </section>
+
+    <!-- footer designe  -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Akash | All Right Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <!-- typed js  -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- custum js  -->
+    
+    <script>
+        setInterval(() => {
+            const time = document.querySelector("#time");
+            let date = new Date();
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            let seconds = date.getSeconds();
+            let day_night = "PM";
+            if (hours > 12) {
+                let day_night = "AM";
+                hours = hours - 12;
+
+            }
+
+            if (hours < 10) {
+                hours = "0" + hours;
+            }
+            if (minutes < 10) {
+                minutes = "0" + minutes;
+            }
+            if (seconds < 10) {
+                seconds = "0" + seconds;
+            }
+            time.textContent = hours + ":" + minutes + ":" + seconds + " " + day_night;
+
+        });
+    </script>
+    <script>
+        function ReadMoreLess(){
+            var dots =document.getElementById("dots");
+            var invisbl=document.getElementById("invisible");
+            var btnText=document.getElementById("btun");
+            if(dots.style.display!="none"){
+                dots.style.display="none"
+                invisbl.style.display="inline"
+                btnText.innerHTML="Read less"
+            }else{
+                dots.style.display="inline"
+                invisbl.style.display="none"
+                btnText.innerHTML="Read more"
+            }
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

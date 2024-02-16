@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Logo</title>
+</head>
+<body>
+
+<!-- Clickable LeetCode Logo -->
+<a href="https://leetcode.com/your_leetcode_profile_url" target="_blank" id="leetcode-logo-link">
+    <img id="leetcode-logo" alt="LeetCode Logo">
+</a>
+
+<script>
+    // Use Fetch API to get LeetCode logo dynamically
+    fetch('https://api.example.com/leetcode-logo') // Replace with the actual API endpoint
+        .then(response => response.json())
+        .then(data => {
+            // Assuming the API returns the logo URL in the 'url' property
+            document.getElementById('leetcode-logo').src = data.url;
+        })
+        .catch(error => console.error('Error fetching LeetCode logo:', error));
+</script>
+
+</body>
+</html>
